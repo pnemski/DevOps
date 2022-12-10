@@ -1,0 +1,5 @@
+FROM python:latest
+LABEL Maintainer="plamennemski"
+WORKDIR ~/DevOps/Docker
+COPY firstif.py ./
+CMD [ "python", "./firstif.py"] 
